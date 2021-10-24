@@ -161,14 +161,12 @@ function App() {
 
   return (
     <div className="App">
-      Hola lucks!!
+      
       <Unity unityContext={unityContext}
       style={{
-        width: '50%', height: 500, background: "orange"
+        width: '50%', height: 500, background: "black"
       }}
       />
-
-      <BtnGeneral />
 
     </div>
   );
